@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<geometry>
+  <shape id="1">
+    <point x="0" y="0"/>
+    <point x="10" y="0"/>
+    <point x="10" y="10"/>
+    <point x="0" y="10"/>
+  </shape>
+  <shape id="2">
+    <point x="0" y="0"/>
+    <point x="20" y="0"/>
+    <point x="20" y="20"/>
+    <point x="0" y="20"/>
+  </shape>
+  <shape id="3">
+    <point x="-10" y="-10"/>
+    <point x="-10" y="40"/>
+    <point x="40" y="40"/>
+    <point x="40" y="-10"/>
+  </shape>
+  <shape id="4">
+    <point x="4" y="4"/>
+    <point x="9" y="2"/>
+    <point x="9" y="9"/>
+  </shape>
+  <shape id="5">
+    <point x="-44" y="-90"/>
+    <point x="-45" y="-91"/>
+    <point x="-46" y="-95"/>
+  </shape>
+</geometry>
