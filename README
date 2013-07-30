@@ -1,0 +1,8 @@
+
+This is a computational geometry library written in Ruby. The rb file contains the functions and classes that comprise the library, as well as a test script that can be run by invoking the file from the terminal.
+
+The test script requires one argument, which is the name of the XML file containing "shape" data which the script will evaluate. The "shape" data is a set of <shape> tags, each including <point> elements to define an ordinal set of points.
+
+There is a sample XML file to run this script, also included  in the repository. Feel free to edit it to your liking, for fresh tests.
+
+Hpricot is required to run the rb file.
