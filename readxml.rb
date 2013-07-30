@@ -34,7 +34,7 @@ class Shape
 end
 
 
-def point_in_shape(point,shape) # uses ray-casting algorithm
+def point_in_shape(point,shape) # uses ray-casting algorithm to evaluate whether a point is contained in a shape
   #find offset, as we can represent ray as a segment that continues from point of origin by a large enough offset so as to definitely pass any edge that might contain it
   xoffset = 0
   yoffset = 0
@@ -211,7 +211,7 @@ class Intersection
 end
 
 
-def combinations(a1,a2) #args are arrays; returns array of combinations of all indices between each
+def combinations(a1,a2) #arguments are arrays; returns an array of combinations of all indices between each array
   return_a = []
   a1.each_index do |i|
     a2.each_index do |j|
@@ -234,6 +234,8 @@ def combine_two_from(a1)
   end
   combinations
 end
+
+# The following is the body of the test script to be run when the program is called from command-line, with an XML file entered as the command-line argument
 
 def read_xml(str)
   fl = File.open(str, "r")
@@ -282,5 +284,3 @@ end
 
 
 p output
-
-shapes
